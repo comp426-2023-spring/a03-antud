@@ -25,7 +25,7 @@ if (args.h) {
 let shot = args._[0];
 
 try {
-    console.log(JSON.stringify(rps(shot)));
+    console.log(JSON.stringify(rpsls(shot)));
 } catch (RangeError) {
     console.log('Usage: node-rpsls [SHOT]\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!\n');
     console.log('\n\t-h, --help      display this help message and exit\n\t-r, --rules     display the rules and exit\n');
