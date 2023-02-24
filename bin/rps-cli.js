@@ -3,11 +3,8 @@
 import { rps } from "../lib/rpsls.js";
 import minimist  from "minimist";
 
-//get user input
 const args = minimist(process.argv.slice(2));
 
-
-//handle user input
 if (args.h) {
     console.log('Usage: node-rps [SHOT]\nPlay Rock Paper Scissors (RPS)\n');
     console.log('\n\t-h, --help      display this help message and exit\n\t-r, --rules     display the rules and exit\n');
@@ -23,8 +20,6 @@ if (args.h) {
     process.exit(0);
 }
 
-
-// extra params
 let shot = args._[0];
 
 try {
