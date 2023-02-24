@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 
 import { rps } from "../lib/rpsls.js";
-
-//import { rps } from 'node-rpsls';
-
 import minimist  from "minimist";
 
 //get user input
