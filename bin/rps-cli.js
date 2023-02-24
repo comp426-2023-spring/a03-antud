@@ -21,8 +21,10 @@ if (args.h) {
     console.log('\t- Scissors CUTS Paper\n\t- Paper COVERS Rock\n\t- Rock CRUSHES Scissors');
     process.exit(0);
 } else if (args._.length == 0) {
-    console.log(JSON.stringify(rpsDefault()));
+    console.log(JSON.stringify(rps()));
+    process.exit(0);
 }
+
 
 // extra params
 let shot = args._[0];
