@@ -5,6 +5,7 @@ import minimist  from "minimist";
 
 const args = minimist(process.argv.slice(2));
 
+
 //handle user input
 if (args.h) {
     console.log('Usage: node-rpsls [SHOT]\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!\n');
